@@ -106,6 +106,10 @@ plugins {
 repositories {
     mavenCentral()
     mavenLocal()
+    maven {
+        name = "TarsosDSP repository"
+        url = uri("https://mvn.0110.be/releases")
+    }
 }
 
 dependencies {
@@ -113,7 +117,8 @@ dependencies {
 //    implementation(libs.jsoup)
 //    implementation(libs.gson)
 //    implementation(libs.csv)
-
+    implementation("be.tarsos.dsp:core:2.5")
+    implementation("be.tarsos.dsp:jvm:2.5")
     implementation(libs.kotlinx.coroutines.core)
     implementation(libs.slf4j.api)
     implementation(libs.kotlin.logging)
