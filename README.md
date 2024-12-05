@@ -1,4 +1,5 @@
-# OPENRNDR template project
+# OPENRNDR beat detector example using tarsos dsp
+![image](screenshot.png)
 
 A feature rich template for creating OPENRNDR programs based on [Gradle/Kts](https://en.wikipedia.org/wiki/Gradle).
 
